@@ -1,5 +1,13 @@
 # Algorithms/Data Structures Implemented in Javascript
 
+This is a set of sorts and data-structures implemented in JavaScript.
+
+Why roll my own? Many implementations use awful variable names in exchange for comments. Most implementations don't have console logs printing along the way. I find it easier to understand _how_ complexity is being calculated when I see the steps printed out along with me -- with dirt-stupid variable names. I'm trying to remember how to derive `O(2^n)`, not remember if `j` is our pivot point or loop counter.
+
+Some text copy/pasted from Wikipedia for the algorithm descriptions.
+
+Use this with love! <3
+
 ## Sorts
 
 ### [Bubble Sort](sorts/bubblesort.js)
