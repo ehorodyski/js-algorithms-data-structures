@@ -24,3 +24,19 @@ On the way up the recursive calls, the lists will be merged together inserting t
 | Average Time            | O(n log n) |
 | Best Time               | O(n log n) |
 | Space                   |       O(n) |
+
+### [Insertion Sort](sorts/insertionsort.js)
+Insertion sort is a simple sorting algorithm that builds the final sorted array (or list) one item at a time.
+
+| Complexity              |            |
+|-------------------------|-----------:|
+| Worst Time              |     O(n^2) |
+| Average Time            |     O(n^2) |
+| Best Time               |       O(n) |
+| Space                   |       O(1) |
+
+It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort. However, insertion sort provides several advantages:
+
+* Simple implementation: Jon Bentley shows a three-line C version, and a five-line optimized version
+* Efficient for (quite) small data sets, much like other quadratic sorting algorithms
+* More efficient in practice than most other simple quadratic (i.e., O(n2)) algorithms such as selection sort or bubble sort
