@@ -6,7 +6,13 @@ Why roll my own? Many implementations use awful variable names in exchange for c
 
 Some text copy/pasted from Wikipedia for the algorithm descriptions.
 
-Use this with love! <3
+To run each example, use [Node](https://nodejs.org/en/). Once Node is installed and the repo cloned:
+
+1. `cd` into the project root directory.
+2. Run `node {filepath}` for the file you want to run.
+  * Example: `node sorts/bubblesort.js`
+
+This code is totally free. Use it with freedom! <3
 
 ## Sorts
 
@@ -48,3 +54,15 @@ It is much less efficient on large lists than more advanced algorithms such as q
 * Simple implementation: Jon Bentley shows a three-line C version, and a five-line optimized version
 * Efficient for (quite) small data sets, much like other quadratic sorting algorithms
 * More efficient in practice than most other simple quadratic (i.e., O(n2)) algorithms such as selection sort or bubble sort
+
+### [Quick Sort](sorts/quicksort.js)
+Quicksort is a divide and conquer algorithm. Quicksort first divides a large array into two smaller sub-arrays: the low elements and the high elements. Quicksort can then recursively sort the sub-arrays.
+
+| Complexity              |            |
+|-------------------------|-----------:|
+| Worst Time              |     O(n^2) |
+| Average Time            | O(n log n) |
+| Best Time               | O(n log n) |
+| Space                   |   O(log n) |
+
+Quicksort can operate in-place on an array, requiring small additional amounts of memory to perform the sorting. It is very similar to selection sort, except that it does not always choose worst-case partition.
